@@ -20,6 +20,6 @@
  
  - `http://127.0.0.1:3000/filter?city=Bangalore&&sortBy=ratingCount` - To get the data in ascending order respect to ratingCount (Default case).
  
- -`http://127.0.0.1:3000/filter?city=Bangalore&&sortBy=ratingCount&&descending=true` rating (key - ratingCount - Number) - To sort data in descending order respect to avgRating.
+ - `http://127.0.0.1:3000/filter?city=Bangalore&&sortBy=ratingCount&&descending=true` rating (key - ratingCount - Number) - To sort data in descending order respect to avgRating.
  
 
