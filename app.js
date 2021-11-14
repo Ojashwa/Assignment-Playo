@@ -108,6 +108,10 @@ const server = http.createServer((req, res) => {
 			res.end(JSON.stringify(filterData));
 		});
 	}
+	else {
+		res.statusCode = 404;
+		res.end(`Page not found.Please try http://${hostname}:${port}/`);
+	}
 });
 
 server.listen(port, hostname, () => {
