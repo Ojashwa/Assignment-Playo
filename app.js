@@ -12,11 +12,6 @@ const getDataSet = () => {
       err ? reject(err) : resolve(data);
     });
   });
-  // myPromise
-  //   .then((dataSet) => {
-  //     callback(JSON.parse(dataSet));
-  //   })
-  // .catch(err=>{console.log(err)});;
 };
 
 const sortDataAscendingOrder = (filterData, sortKey) => {
